@@ -1,0 +1,67 @@
+:root{
+    --principal: #8e22bb;
+}
+
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-color: var(--principal);
+}
+
+/*Bloques*/
+.bloque-medio{
+    margin-top: 70px;
+}
+
+.titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+input:focus{
+    outline: none !important;
+    border: 3px solid var(--principal);
+}
+
+hr{
+    color: var(--principal)
+}
+
+.color-principal{
+    color: var(--principal);
+}
+
+.fondo{
+    background-color: var(--principal);
+}
+
+/*Enlaces*/
+a{
+    color: black;
+    text-decoration: none;
+  }
+
+a:hover{
+    color: var(--principal);
+    text-decoration: none;
+}
+
+.footer a, .encabezado a{
+    color: white;
+}
+
+.footer a:hover, .encabezado a:hover{
+    color: gray;
+}
+
+/*Iconos*/
+svg{
+    color: black;
+}
+
+svg:hover{
+    color: var(--principal);
+}
+
+.encabezado svg{
+    color:white;
+}
